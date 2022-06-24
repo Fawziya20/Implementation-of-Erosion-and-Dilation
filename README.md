@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((100,450),dtype='uint8')
 font=cv2.FONT_ITALIC
-cv2.putText(img1,'Vijayaragavan',(6,80),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'Fawziya A',(6,80),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img1)
 plt.show()
